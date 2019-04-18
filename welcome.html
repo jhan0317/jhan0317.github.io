@@ -1,71 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>Welcome!</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="My Website Atom Feed" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to my website where I will share my life and cool stuff about data science!" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@svenkreiss" />
+    <meta name="twitter:creator" content="@svenkreiss" />
+    <meta name="twitter:title" content="Welcome!" />
+    <meta name="twitter:description" content="Welcome to my website where I will share my life and cool stuff about data science!" />
+    <meta name="twitter:image:src" content="" />
+    <meta name="twitter:domain" content="svenkreiss.com" />
+
+    <meta property="og:title" content="Welcome!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Welcome to my website where I will share my life and cool stuff about data science!" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="svenkreiss.com" />
+    <meta property="og:url" content="/welcome.html" />
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Chloe Han Full Atom Feed"/>
+
+        <title>Welcome! - Chloe Han</title>
+
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/katex.min.css" integrity="sha384-VEnyslhHLHiYPca9KFkBB3CMeslnM9CzwjxsEbZTeA21JBm7tdLwKoZmCt3cZTYD" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/katex.min.js" integrity="sha384-O4hpKqcplNCe+jLuBVEXC10Rn1QEqAmX98lKAIFBEDxZI0a+6Z2w2n8AEtQbR4CD" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/contrib/auto-render.min.js" integrity="sha384-IiI65aU9ZYub2MY9zhtKd1H2ps7xxf+eb2YFG9lX6uRqpXCvBTOidPRCXCrQ++Uc" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/theme/css/pure.css?v=0.1.0" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" />
+
+    <!-- for pelican_dynamic plugin -->
+    <!-- end pelican_dynamic -->
+
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">My Website </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="/category/welcome.html">welcome</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/welcome.html" rel="bookmark"
-           title="Permalink to Welcome!">Welcome!</a></h1>
-    </header>
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+                <h2 class="article-info">Chloe</h2>
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-04-17T00:00:00-04:00">
-                Published: Wed 17 April 2019
-        </abbr>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/jiangxue.html">Jiangxue</a>
-        </address>
-<p>In <a href="/category/welcome.html">welcome</a>.</p>
-<p>tags: <a href="/tag/blog.html">blog</a> </p>
-</footer><!-- /.post-info -->      <p>Welcome to my personal website!</p>
-    </div><!-- /.entry-content -->
 
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                <p class="article-date">Wed 17 April 2019</p>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+                <a class="header-article-home" href="/">&larr;Home</a>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Welcome!</h1>
+                </header>
+            </section>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+            <p>Welcome to my personal website!</p>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+            <p class="post-footer">
+                // filed
+under                    <a class="post-category" href="/tag/blog.html">blog</a>
+                in <a class="post-category" href="/category/welcome.html">welcome</a>&nbsp;&nbsp;&nbsp;
+
+                <span style="display:inline-block;">
+                // share on <a href="https://twitter.com/share?text=%22Welcome%21%3A%20Welcome%20to%20my%20website%20where%20I%20will%20share%20my%20life%20and%20cool%20stuff%20about%20data%20science%21%22&amp;hashtags=blog" target="_blank">
+                    <i class="fa fa-twitter fa-lg"></i> Twitter
+                </a>
+                </span>
+            </p>
+            <div class="hr"></div>
+
+
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Chloe Han .</p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        renderMathInElement(document.body);
+    </script>
+
+    <!-- for pelican_dynamic plugin -->
+
+
 
 </body>
 </html>
